@@ -17,7 +17,7 @@ This repo is a collection of shell scripts designed to help you set up project d
 Use this script to create a basic React project directory structure, including essential files and folders. It sets up the initial configuration and dependencies for your React project.
 
 ```bash
-./create-react-project.sh <project_name>
+  sh ./create-react-project.sh <project_name>
 ```
 
 ### Express Server Project Folder
@@ -25,7 +25,7 @@ Use this script to create a basic React project directory structure, including e
 Create an Express.js server project skeleton with this script. It creates the necessary files, installs Express.js, and sets up a sample route to get you started.
 
 ```bash
-  ./create-express-project.sh <project_name>
+  sh ./create-express-project.sh <project_name>
 ```
 
 ### React & Express Full Stack Project Folder
@@ -33,7 +33,7 @@ Create an Express.js server project skeleton with this script. It creates the ne
 This script combines the power of React and Express by setting up a full-stack project structure. It creates separate directories for the front-end and back-end, allowing you to develop both parts independently.
 
 ```bash
-  ./create-full-stack-project.sh <project_name>
+  sh ./create-full-stack-project.sh <project_name>
 ```
 
 ### Python Flask Project Folder
@@ -41,7 +41,7 @@ This script combines the power of React and Express by setting up a full-stack p
 This script sets up the project skeleton for a new Flask app.
 
 ```bash
-  ./create-flask-project.sh <project_name>
+  sh ./create-flask-project.sh <project_name>
 ```
 
 ## Usage
