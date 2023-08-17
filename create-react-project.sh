@@ -8,7 +8,7 @@ fi
 echo "Creating Express project directory '$project_name'"
 
 # Create project folder
-mkdir "$project_name" & sleep 1;
+mkdir "$project_name"
 cd "$project_name"
 
 # Create initial README.md
@@ -227,16 +227,14 @@ module.exports = {
 
 # Set up initial .gitignore
 echo "node_modules/
-.env
 .DS_Store
 bundle.js
 bundle.js.map
 bundle.js.br
+bundle.js.LICENSE.txt
 config.js
 coverage/
 jest.config.js
-bundle.js.LICENSE.txt
-bundle.js.br
 " > .gitignore
 
 # git init
