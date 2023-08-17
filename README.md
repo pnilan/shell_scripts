@@ -14,12 +14,10 @@ This repo is a collection of shell scripts designed to help you set up project d
 
 ### React Project Folder
 
-COMING SOON
-
 Use this script to create a basic React project directory structure, including essential files and folders. It sets up the initial configuration and dependencies for your React project.
 
 ```bash
-  sh ./create-react-project.sh <project_name>
+  sh ./create-react-project.sh
 ```
 
 ### Express Server Project Folder
@@ -27,7 +25,7 @@ Use this script to create a basic React project directory structure, including e
 Create an Express.js server project skeleton with this script. It creates the necessary files, installs Express.js, and sets up a sample route to get you started.
 
 ```bash
-  sh ./create-express-project.sh <project_name>
+  sh ./create-express-project.sh
 ```
 
 ### React & Express Full Stack Project Folder
